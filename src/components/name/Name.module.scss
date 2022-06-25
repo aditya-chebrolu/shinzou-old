@@ -1,0 +1,48 @@
+.body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.name {
+    font-family: Ami;
+    color: white;
+    font-size: 60px;
+    padding: 0 20px;
+
+    span:nth-child(1),
+    span:nth-child(8) {
+        color: #c6de41;
+    }
+
+    position: relative;
+
+    // &::after {
+    //     content: '';
+    //     display: inline-block;
+    //     height: 100px;
+    //     width: 100px;
+    //     background: #c6de41;
+    //     background: #14181d;
+    //     position: absolute;
+    //     border-radius: 50%;
+    //     z-index: -1;
+    //     // right: -10px;
+    //     left: -10px;
+    //     top: -5px;
+    // }
+    // &::after {
+    //     content: '';
+    //     display: inline-block;
+    //     background: url('../../assets/pics/notok.png') no-repeat;
+    //     height: 800px;
+    //     width: 500px;
+    //     position: absolute;
+    //     border-radius: 50%;
+    //     z-index: -1;
+    //     left: 50%;
+    //     top: 50%;
+    //     transform: translate(-50%, -50%) scale(0.7);
+    // }
+}

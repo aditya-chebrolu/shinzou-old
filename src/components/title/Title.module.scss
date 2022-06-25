@@ -1,0 +1,40 @@
+@import '../../Theme.scss';
+
+.body {
+    border-radius: 5px;
+    background: linear-gradient(225deg, #1f242c, #242b34);
+    box-shadow: 3px -3px 7px #0e101494, -3px 3px 7px #36404ead;
+
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg) translateY(50%);
+
+    box-sizing: border-box;
+    font-size: 0;
+
+    position: fixed;
+    overflow: hidden;
+    height: 90%;
+    top: 50%;
+}
+
+.text {
+    font-size: 80px;
+    color: $secondary;
+    letter-spacing: 12px;
+    cursor: default;
+    transition: 0.4s ease-in-out;
+    text-align: center;
+    font-family: 'HikouOutline', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .body {
+        writing-mode: horizontal-tb;
+        transform: none;
+        top: 20px;
+        left: 20px;
+        right: 20px;
+    }
+    .text {
+    }
+}
