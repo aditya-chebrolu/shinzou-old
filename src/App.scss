@@ -1,39 +1,26 @@
 @font-face {
-    font-family: HikouOutline;
-    src: url('./assets/fonts/Hikou Outline.otf');
+  font-family: HikouOutline;
+  src: url('./assets/fonts/Hikou Outline.otf');
 }
 @font-face {
-    font-family: Rethink;
-    src: url('./assets/fonts/Rethinker.ttf');
+  font-family: Rethink;
+  src: url('./assets/fonts/Rethinker.ttf');
 }
 @font-face {
-    font-family: Ami;
-    src: url('./assets/fonts/Ami.ttf');
+  font-family: Ami;
+  src: url('./assets/fonts/Ami.ttf');
 }
 
 @import './Theme.scss';
 
-.App {
-    background-color: $primary;
-    padding: 20px;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.section {
-    height: calc(100vh - 40px);
-    width: 100%;
-    color: white;
-    // border: solid 1px red;
+body {
+  background-color: #122747;
 }
 
 body {
-    -ms-overflow-style: none; /* Internet Explorer 10+ */
-    scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
 }
 body::-webkit-scrollbar {
-    display: none; /* Safari and Chrome */
+  display: none; /* Safari and Chrome */
 }
