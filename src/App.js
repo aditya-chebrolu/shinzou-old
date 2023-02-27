@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.scss';
 import Intro from './pages/intro';
 import Nav from './components/navigation/Nav';
+import ScrollBar from './components/pseudo-scroll-bar';
 
 export const PageContext = React.createContext({});
 
@@ -52,7 +53,7 @@ export const PageContext = React.createContext({});
 // }
 
 function App() {
-  const [page, setPage] = useState(1);
+  // const [page, setPage] = useState(1);
   //   const sections = [useRef(), useRef(), useRef(), useRef()];
   //   const changePage = (page) => {
   //     switch (page) {
@@ -76,10 +77,10 @@ function App() {
   //   };
   return (
     <div className='App'>
-      <PageContext.Provider value={{ page }}>
-        <Intro />
+      <PageContext.Provider value={{ page: 1 }}>
         <Intro />
         <Nav />
+        <ScrollBar />
       </PageContext.Provider>
     </div>
   );
