@@ -8,8 +8,6 @@ const Rocket = (props) => {
       id='Layer_1'
       xmlns='http://www.w3.org/2000/svg'
       viewBox='0 0 505.584 505.584'
-      //   stroke='white'
-      //   strokeWidth={15}
       {...props}
     >
       <g>
