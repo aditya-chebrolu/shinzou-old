@@ -1,3 +1,5 @@
+@import '../../Theme.scss';
+
 .container {
   font-family: 'ARS', sans-serif;
   position: absolute;
@@ -15,7 +17,7 @@
     display: inline-block;
     font-weight: bold;
     line-height: 5rem;
-    color: #f87060;
+    color: $secondary;
     opacity: 0%;
     animation: letterAnim 1500ms forwards;
     scale: 0;
@@ -31,7 +33,7 @@
 
 .dot {
   display: inline-block;
-  color: #f87060;
+  color: $secondary;
   animation: dotAnim 1500ms forwards;
   translate: 40rem 0;
   transform-origin: bottom left;
@@ -78,7 +80,7 @@
   50% {
     scale: 1.1;
     rotate: -10deg;
-    color: #b3a394;
+    color: $tertiary;
   }
 
   100% {

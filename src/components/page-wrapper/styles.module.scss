@@ -1,3 +1,5 @@
+@import '../../Theme.scss';
+
 .page {
   display: flex;
   flex-direction: column;
@@ -16,7 +18,7 @@
 
     div:first-child {
       font-size: 5rem;
-      color: #f87060;
+      color: $secondary;
     }
   }
 }
